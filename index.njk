@@ -1,0 +1,6 @@
+{% extends 'layouts/base-layout.njk' %}
+{% set homePage = collections.main[0] %}
+
+{% block content %}
+  <p>{% excerptHeader homePage %}</p>
+{% endblock %}
