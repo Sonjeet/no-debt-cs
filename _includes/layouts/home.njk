@@ -1,0 +1,29 @@
+{% extends 'layouts/base-layout.njk' %}
+{% from "partials/section-heading.njk" import sectionHeading %}
+{% set homeContent = collections.main[0] %}
+
+{% block heading %}
+  {% excerptHeader homeContent %}
+{% endblock %}
+
+{% block content %}
+<section id="rationale">
+  {{ sectionHeading({ heading: "Rationale"}) }}
+  <div class="card">
+    {% block rationale %}
+    {% endblock %}
+  </div>
+</section>
+
+<section id="core-modules"></section>
+<section id="elective-modules"></section>
+
+<section id="becoming-ready">
+  {{ sectionHeading({ heading: "Becoming career ready" }) }}
+  <div class="card">
+    {% block furtherInfo %}
+    {% endblock %}
+  </div>
+</section>
+
+{% endblock %} {# end block content #}

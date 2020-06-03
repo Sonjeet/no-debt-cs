@@ -2,6 +2,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("excerptHeader", (article) =>
     excerptHeader(article)
   );
+
+  eleventyConfig.addShortcode("excerptRationale", (article) =>
+    excerptRationale(article)
+  );
+
+  eleventyConfig.addShortcode("excerptFurtherInfo", (article) =>
+    excerptFurtherInfo(article)
+  );
 };
 
 /**
@@ -23,11 +31,8 @@ function excerptHelper(article, separatorsList) {
 
   if (typeof article === "string") {
     content = article;
-    console.log("IT IS A STRING WOOOOOAAHH");
   } else if (article.hasOwnProperty("templateContent")) {
     content = article.templateContent;
-    console.log("IT IS A OBJECT WOAHAASDUIASHDUAHSDHUU");
-    console.log("content is THISSSSS: ", content);
   }
 
   if (content === null) {
@@ -36,16 +41,13 @@ function excerptHelper(article, separatorsList) {
   }
 
   separatorsList.some((separators) => {
-    console.log("SEPERATORS.START IS", separators.start);
     const startPosition = content.indexOf(separators.start);
     const endPosition = content.indexOf(separators.end);
 
     if (startPosition !== -1 && endPosition !== -1) {
-      console.log("RUNNING BOIIII");
       excerpt = content
         .substring(startPosition + separators.start.length, endPosition)
         .trim();
-      console.log("THE VAL OF EXCERPT HAS BEEN SET TO ", excerpt);
       return true; // Exit out of array loop on first match
     }
   });
@@ -55,6 +57,14 @@ function excerptHelper(article, separatorsList) {
 
 function excerptHeader(article) {
   return excerptHelper(article, makeExcerptSeparator("Heading"));
+}
+
+function excerptRationale(article) {
+  return excerptHelper(article, makeExcerptSeparator("Rationale"));
+}
+
+function excerptFurtherInfo(article) {
+  return excerptHelper(article, makeExcerptSeparator("FurtherInfo"));
 }
 
 function makeExcerptSeparator(separator) {

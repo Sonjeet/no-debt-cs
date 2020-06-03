@@ -1,0 +1,98 @@
+:root {
+  --color-base: #f2f8ff;
+  --color-primary: rgb(110, 129, 156);
+  --color-secondary: rgb(98, 116, 142);
+  --color-shadow: rgba(209, 230, 255, 0.57) 0px 2px 24px 1px;
+  --color-dark: rgba(0, 0, 0, 0.65);
+  --color-darkest: #000000;
+  --color-light: #ffffff;
+
+  --font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  --font-serif: Georgia, Times, serif;
+  --font-light: 400;
+  --font-normal: 500;
+  --font-heavy: 700;
+  --font-heaviest: 900;
+
+  --radius: 30px;
+
+  font-size: 13px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-base);
+  font-family: var(--font-sans-serif);
+}
+
+.layout-container {
+  padding: 0 1rem;
+  width: 100%; /* TODO: at some point we'll require a max-wdith for big screens*/
+}
+
+.card {
+  background-color: var(--color-light);
+  border-radius: var(--radius);
+  padding: 1.8rem;
+  box-shadow: var(--color-shadow);
+  color: var(--color-secondary);
+}
+
+.card p {
+  font-weight: var(--font-normal);
+}
+
+.card ul {
+  display: inline-block;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.content .card *:nth-child(n + 2) {
+  margin-top: 1rem;
+}
+
+.section-heading {
+  display: flex;
+  color: var(--color-primary);
+  font-weight: var(--font-heavy);
+  margin-bottom: 1rem;
+}
+
+.heading {
+  border-radius: 0px 0px var(--radius) var(--radius);
+}
+
+.heading__navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.heading__text h1 {
+  margin-bottom: 1rem;
+  color: var(--color-darkest);
+  font-weight: var(--font-heaviest);
+}
+
+.heading__text p {
+  font-weight: var(--font-light);
+  color: var(--color-dark);
+}
+
+.content > section {
+  margin-top: 2rem;
+}
+
+.content__title {
+  color: var(--color-primary);
+  font-weight: var(--font-heavy);
+  margin-bottom: 1rem;
+}

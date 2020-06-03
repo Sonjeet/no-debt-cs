@@ -5,13 +5,13 @@ tags: ["main"]
 
 <!-- Start Heading -->
 
-A CS degree from university has its benefits. But for those that want to learn at their own pace without spending a fortune, I've curated a list of reputable, free resources to learn CS for free.
+# No Debt Computer Science
+
+A CS degree from university has its benefits. But for those that want to learn at their own pace without spending a fortune, I've curated a list of reputable resources to learn CS for free.
 
 <!-- End Heading -->
 
 <!-- Start Rationale -->
-
-# Rationale
 
 With respectable institutes like MIT, Harvard & co open sourcing their computer science material it's easier than ever to learn CS for free at your own pace. I've documented some of these resources in a structured fashion below but this is by no means a quick guide to become a computer scientist. These are demanding courses so put in the work pal.
 
@@ -19,13 +19,11 @@ With respectable institutes like MIT, Harvard & co open sourcing their computer 
 
 <!-- Start FurtherInfo -->
 
-# Become industry ready
-
 Theoretical computer science knowledge can only take you so far, popular choices for getting prepared for jobs and interviews are:
 
-- missing semester [https://missing.csail.mit.edu/](https://missing.csail.mit.edu/)
-- cracking the coding interview
-- suggest a resource
+- [The missing semester (MIT)](https://missing.csail.mit.edu/)
+- [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/)
+
 <!-- End FurtherInfo -->
 
 <!-- Start Credits -->

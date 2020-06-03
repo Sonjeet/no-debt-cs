@@ -2,18 +2,31 @@
 <html lang="en"> 
 <head> 
   <meta charset="utf-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-  <title>No Debt CS</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {% set css %}{% include "styles/styles.css" %}{% endset %}
+  <style>
+  {# TODO: before deploying, minify the css https://www.11ty.dev/docs/quicktips/inline-css/ #}
+    {{ css | safe }}
+  </style>
+  <title>No Debt CS</title>
 </head> 
 <body>
-  <header>
-    Temp Site Header
-  </header> 
-  <main>
-  {% block content %}
-  {% endblock %}
-  </main> 
-  
-  <footer>Made by Sonjeet Paul</footer> 
+  <section class="layout-container">
+    <header class="heading card">
+      <nav class="heading__navbar">
+        <span>Icon</span>
+        <span>Linkedin | Github<span/>
+      </nav>
+      <div class="heading__text">
+        {% block heading %}
+        {% endblock %}
+      </div>
+    </header>
+    <main class="content">
+      {% block content %}
+      {% endblock %}
+    </main>
+  </section>
+  <footer>{# TODO: #}</footer> 
 </body> 
 </html>
