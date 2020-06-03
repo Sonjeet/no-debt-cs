@@ -10,6 +10,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("excerptFurtherInfo", (article) =>
     excerptFurtherInfo(article)
   );
+
+  eleventyConfig.addShortcode("excerptCredits", (article) =>
+    excerptCredits(article)
+  );
+
+  eleventyConfig.addPassthroughCopy("icons");
 };
 
 /**
@@ -65,6 +71,10 @@ function excerptRationale(article) {
 
 function excerptFurtherInfo(article) {
   return excerptHelper(article, makeExcerptSeparator("FurtherInfo"));
+}
+
+function excerptCredits(article) {
+  return excerptHelper(article, makeExcerptSeparator("Credits"));
 }
 
 function makeExcerptSeparator(separator) {

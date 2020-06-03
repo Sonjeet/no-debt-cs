@@ -8,20 +8,35 @@
 
 {% block content %}
 <section id="rationale">
-  {{ sectionHeading({ heading: "Rationale"}) }}
+  {{ sectionHeading({ heading: "Rationale" }) }}
   <div class="card">
     {% block rationale %}
     {% endblock %}
   </div>
 </section>
 
-<section id="core-modules"></section>
+<section id="core-modules">
+  {{ sectionHeading({ heading: "Core Modules" }) }}
+  <div class="modules">
+    {% block coreModules %}
+    {% endblock %}
+  </div>
+</section>
 <section id="elective-modules"></section>
 
 <section id="becoming-ready">
   {{ sectionHeading({ heading: "Becoming career ready" }) }}
   <div class="card">
     {% block furtherInfo %}
+    {% endblock %}
+  </div>
+</section>
+
+
+<section id="credits">
+  {{ sectionHeading({ heading: "Credit where credit's due" }) }}
+  <div class="card">
+    {% block credits %}
     {% endblock %}
   </div>
 </section>

@@ -1,5 +1,7 @@
 ---
 layout: layouts/module.njk
+title: Intro to Programming
+image: "programming"
 tags: ["core"]
 ---
 

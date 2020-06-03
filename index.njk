@@ -1,10 +1,22 @@
 {% extends 'layouts/home.njk' %}
+{% from "partials/module-card.njk" import moduleCard %}
 {% set homeContent = collections.main[0] %}
+{% set coreModulesData = collections.core %}
 
 {% block rationale %}
   {% excerptRationale homeContent %}
 {% endblock %}
 
+{% block coreModules %}
+  {% for core in coreModulesData %}
+    {{ moduleCard({ icon: core.data.image, moduleTitle: core.data.title, url: core.url}) }}
+  {% endfor %}
+{% endblock %}
+
 {% block furtherInfo %}
   {% excerptFurtherInfo homeContent %}
+{% endblock %}
+
+{% block credits %}
+  {% excerptCredits homeContent %}
 {% endblock %}

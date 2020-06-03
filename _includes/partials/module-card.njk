@@ -1,0 +1,13 @@
+{# Props:
+- svg name
+- module title
+- module url
+ #}
+{% macro moduleCard(props) %}
+  <a href="{{props.url | url}}" class="card module">
+    <div class="module__card">
+      <img class="module__icon" src="icons/{{props.icon}}.svg" alt="{{props.icon}}" />
+      <span class="module__title">{{props.moduleTitle | title}}</span>
+    </div>
+  </a>
+{% endmacro %}
