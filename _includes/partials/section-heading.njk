@@ -1,6 +1,17 @@
-{# TODO: add question mark icon at rhs w/ pop up modal #}
 {% macro sectionHeading(props) %}
 <div class="section-heading">
   <h3>{{ props.heading | upper }}</h3>
+  {% if props.info %}
+    <span class="section-heading__tooltip">
+      <i class="far fa-question-circle"></i>
+      <span class="section-heading__tooltip-text">
+        {% if props.info === "core" %}
+          These are the fundamental modules that will be present in almost all CS degrees, give or take one or two.
+        {% elif props.info === "elective" %}
+          Most CS courses offer elective modules which are completely optional. These provide students the flexibility to choose what they're most motivated to learn.
+        {% endif %}
+      </span>
+    </span>
+  {% endif %}
 </div>
 {% endmacro %}

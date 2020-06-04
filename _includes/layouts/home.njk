@@ -16,7 +16,7 @@
 </section>
 
 <section id="core-modules">
-  {{ sectionHeading({ heading: "Core Modules" }) }}
+  {{ sectionHeading({ heading: "Core Modules", info: "core" }) }}
   <div class="modules">
     {% block coreModules %}
     {% endblock %}
@@ -24,7 +24,7 @@
 </section>
 
 <section id="elective-modules">
-  {{ sectionHeading({ heading: "Elective Modules" }) }}
+  {{ sectionHeading({ heading: "Elective Modules", info: "elective" }) }}
   <div class="modules">
     {% block electiveModules %}
     {% endblock %}
@@ -47,5 +47,4 @@
     {% endblock %}
   </div>
 </section>
-
 {% endblock %} {# end block content #}
