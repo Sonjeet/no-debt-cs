@@ -37,8 +37,9 @@ Understanding how a computer works is important for a lot of careers that often 
 
 <!-- Start RecommendedBooks -->
 
-Book | Author
-[Structured Computer Organisation](https://www.amazon.co.uk/Structured-Computer-Organization-Andrew-Tanenbaum/dp/0132916525)| Andrew Tanenbaum
+| Book                                                                                                                         |      Author      |
+| :--------------------------------------------------------------------------------------------------------------------------- | :--------------: |
+| [Structured Computer Organisation](https://www.amazon.co.uk/Structured-Computer-Organization-Andrew-Tanenbaum/dp/0132916525) | Andrew Tanenbaum |
 
 <!-- End RecommendedBooks -->
 

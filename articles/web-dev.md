@@ -33,9 +33,10 @@ Web development is one of the most lucrative fields at the moment. The web conti
 
 <!-- Start RecommendedBooks -->
 
-Book | Author
-[HTML and CSS: Design and build websites](https://www.amazon.co.uk/HTML-CSS-Design-Build-Websites/dp/1118008189)| Jon Duckett
-[JavaScript and JQuery: Interactive Front-End Web Development](https://www.amazon.co.uk/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647)| Jon Duckett
+| Book                                                                                                                                                       |   Author    |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: |
+| [HTML and CSS: Design and build websites](https://www.amazon.co.uk/HTML-CSS-Design-Build-Websites/dp/1118008189)                                           | Jon Duckett |
+| [JavaScript and JQuery: Interactive Front-End Web Development](https://www.amazon.co.uk/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647) | Jon Duckett |
 
 <!-- End RecommendedBooks -->
 

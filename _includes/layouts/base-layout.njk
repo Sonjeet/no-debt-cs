@@ -8,14 +8,22 @@
   {# TODO: before deploying, minify the css https://www.11ty.dev/docs/quicktips/inline-css/ #}
     {{ css | safe }}
   </style>
+  <script src="https://kit.fontawesome.com/a7ed7ec2ae.js" crossorigin="anonymous"></script>
   <title>No Debt CS</title>
 </head> 
 <body>
   <section class="layout-container">
     <header class="heading card">
       <nav class="heading__navbar">
-        <span>Icon</span>
-        <span>Linkedin | Github<span/>
+        <a href="/">
+          {% block logo %}
+            <img class="heading__navbar logo" src="icons/logo.svg" alt="Computer Science logo"/>
+          {% endblock %}
+        </a>
+        <div class="heading__icons">
+          <a href="https://www.linkedin.com/in/sonjeet/" target="_blank" class="heading__icon"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com//sonjeet/no-debt-cs" target="_blank" class="heading__icon"><i class="fab fa-github"></i></a>
+        </div>
       </nav>
       <div class="heading__text">
         {% block heading %}
@@ -27,6 +35,8 @@
       {% endblock %}
     </main>
   </section>
-  <footer>{# TODO: #}</footer> 
+  <footer class="footer">
+    <span>A website by <a href="https://sonjeetpaul.tech/">Sonj</a></span>
+  </footer> 
 </body> 
 </html>

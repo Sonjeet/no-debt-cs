@@ -35,9 +35,10 @@ Machine learning and artificial intelligence is currently being pushed into so m
 
 <!-- Start RecommendedBooks -->
 
-Book | Author
-[Deep Learning (MIT)](https://www.deeplearningbook.org/)| Ian Goodfellow et al.
-[Pattern recognition and machine learning](https://www.amazon.co.uk/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738)| Christopher Bishop
+| Book                                                                                                                                   |        Author         |
+| :------------------------------------------------------------------------------------------------------------------------------------- | :-------------------: |
+| [Deep Learning (MIT)](https://www.deeplearningbook.org/)                                                                               | Ian Goodfellow et al. |
+| [Pattern recognition and machine learning](https://www.amazon.co.uk/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738) |  Christopher Bishop   |
 
 <!-- End RecommendedBooks -->
 

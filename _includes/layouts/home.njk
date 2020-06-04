@@ -22,7 +22,14 @@
     {% endblock %}
   </div>
 </section>
-<section id="elective-modules"></section>
+
+<section id="elective-modules">
+  {{ sectionHeading({ heading: "Elective Modules" }) }}
+  <div class="modules">
+    {% block electiveModules %}
+    {% endblock %}
+  </div>
+</section>
 
 <section id="becoming-ready">
   {{ sectionHeading({ heading: "Becoming career ready" }) }}

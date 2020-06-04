@@ -1,1 +1,40 @@
 {% extends "layouts/base-layout.njk" %}
+{% from "partials/section-heading.njk" import sectionHeading %}
+
+{% block logo %}
+<img class="heading__navbar logo" src="../../icons/logo.svg" alt="Computer Science logo"/>  
+{% endblock %}
+
+{% block heading %}
+  {% excerptHeader content %}
+{% endblock %}
+
+{% block content %}
+<section id="rationale">
+  {{ sectionHeading({ heading: "Rationale" }) }}
+  <div class="card">
+    {% excerptRationale content %}
+  </div>
+</section>
+
+<section id="resources">
+  {{ sectionHeading({ heading: "Resources" }) }}
+  <div class="card">
+    {% excerptResources content %}
+  </div>
+</section>
+
+<section id="recommended-books">
+  {{ sectionHeading({ heading: "Recommended books" }) }}
+  <div class="card">
+    {% excerptBooks content %}
+  </div>
+</section>
+
+<section id="checklist">
+  {{ sectionHeading({ heading: "Checklist summary" }) }}
+  <div class="card">
+    {% excerptChecklist content %}
+  </div>
+</section>
+{% endblock %}

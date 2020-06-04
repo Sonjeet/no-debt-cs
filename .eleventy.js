@@ -15,6 +15,18 @@ module.exports = function (eleventyConfig) {
     excerptCredits(article)
   );
 
+  eleventyConfig.addShortcode("excerptResources", (article) =>
+    excerptResources(article)
+  );
+
+  eleventyConfig.addShortcode("excerptBooks", (article) =>
+    excerptBooks(article)
+  );
+
+  eleventyConfig.addShortcode("excerptChecklist", (article) =>
+    excerptChecklist(article)
+  );
+
   eleventyConfig.addPassthroughCopy("icons");
 };
 
@@ -75,6 +87,18 @@ function excerptFurtherInfo(article) {
 
 function excerptCredits(article) {
   return excerptHelper(article, makeExcerptSeparator("Credits"));
+}
+
+function excerptResources(article) {
+  return excerptHelper(article, makeExcerptSeparator("Resources"));
+}
+
+function excerptBooks(article) {
+  return excerptHelper(article, makeExcerptSeparator("RecommendedBooks"));
+}
+
+function excerptChecklist(article) {
+  return excerptHelper(article, makeExcerptSeparator("Checklist"));
 }
 
 function makeExcerptSeparator(separator) {

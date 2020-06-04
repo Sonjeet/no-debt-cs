@@ -2,6 +2,7 @@
 {% from "partials/module-card.njk" import moduleCard %}
 {% set homeContent = collections.main[0] %}
 {% set coreModulesData = collections.core %}
+{% set electiveModulesData = collections.elective %}
 
 {% block rationale %}
   {% excerptRationale homeContent %}
@@ -10,6 +11,12 @@
 {% block coreModules %}
   {% for core in coreModulesData %}
     {{ moduleCard({ icon: core.data.image, moduleTitle: core.data.title, url: core.url}) }}
+  {% endfor %}
+{% endblock %}
+
+{% block electiveModules %}
+  {% for elective in electiveModulesData %}
+    {{ moduleCard({ icon: elective.data.image, moduleTitle: elective.data.title, url: elective.url }) }}
   {% endfor %}
 {% endblock %}
 

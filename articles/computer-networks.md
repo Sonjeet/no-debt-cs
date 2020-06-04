@@ -34,8 +34,9 @@ Your everyday life involves computers communicating with each other so it's good
 
 <!-- Start RecommendedBooks -->
 
-Book | Author
-[Computer Networks](https://www.amazon.co.uk/Computer-Networks-Andrew-S-Tanenbaum/dp/0132126958)| Andrew Tanenbaum
+| Book                                                                                             |      Author      |
+| :----------------------------------------------------------------------------------------------- | :--------------: |
+| [Computer Networks](https://www.amazon.co.uk/Computer-Networks-Andrew-S-Tanenbaum/dp/0132126958) | Andrew Tanenbaum |
 
 <!-- End RecommendedBooks -->
 

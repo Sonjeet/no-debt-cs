@@ -45,8 +45,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .layout-container {
-  padding: 0 1rem;
+  padding: 0 1em;
   width: 100%; /* TODO: at some point we'll require a max-wdith for big screens*/
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 .card {
@@ -67,6 +69,42 @@ body::-webkit-scrollbar-thumb {
   margin-left: 1rem;
 }
 
+.card table {
+  width: 100%;
+}
+
+.card table thead th {
+  /* background-color: green; */
+  border-bottom: 0.2rem solid var(--color-dark);
+}
+
+.card table tbody tr:nth-child(odd) {
+  background-color: var(--color-base);
+}
+
+.card table tbody tr > td {
+  padding: 0.5rem;
+}
+
+#checklist .card ul {
+  margin-left: 0;
+}
+
+#checklist .card ul li {
+  list-style-type: none;
+}
+
+#checklist .card ul li:before {
+  margin-right: 1rem;
+  content: "";
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  background-image: url("../../icons/check-mark.svg");
+  /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/93/Tango-bullet.svg); */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .modules {
   display: flex;
   justify-content: space-between;
@@ -80,10 +118,14 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   margin-bottom: 1rem;
   font-size: 0.8rem;
+  text-decoration: none;
 }
 
 .module__card {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .module__icon {
@@ -120,11 +162,45 @@ body::-webkit-scrollbar-thumb {
 .heading__navbar {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.heading__navbar .logo {
+  height: 4rem;
+  width: 4rem;
+}
+
+.heading__icons {
+  display: flex;
+  align-items: center;
+}
+
+.heading__icon {
+  height: 2.7rem;
+  width: 2.7rem;
+  border-radius: 50%;
+  border: 0.1rem solid var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin-left: 0.5rem;
+}
+
+.heading__icon:hover {
+  text-decoration: none;
+  border-color: var(--color-secondary);
+}
+
+.heading__icon:visited {
+  text-decoration: none;
+  color: var(--color-primary);
 }
 
 .heading__text h1 {
   margin-bottom: 1rem;
+  font-family: var(--font-serif);
   color: var(--color-darkest);
   font-weight: var(--font-heaviest);
 }
@@ -142,4 +218,37 @@ body::-webkit-scrollbar-thumb {
   color: var(--color-primary);
   font-weight: var(--font-heavy);
   margin-bottom: 1rem;
+}
+
+.footer {
+  border-top: 0.05rem solid var(--color-secondary);
+  text-align: center;
+  padding: 1rem 0rem;
+  font-size: 1.2rem;
+  color: var(--color-dark);
+  margin-top: 2rem;
+  font-weight: var(--font-light);
+}
+
+a {
+  color: inherit !important;
+}
+a:visited {
+  color: inherit !important;
+}
+
+@media only screen and (min-width: 520px) {
+  :root {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  :root {
+    font-size: 22px;
+  }
+
+  .layout-container {
+    padding: 0 2em;
+  }
 }

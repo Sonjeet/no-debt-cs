@@ -33,8 +33,9 @@ Security is a lucrative career if you know what you're doing. Here are some fiel
 
 <!-- Start RecommendedBooks -->
 
-Book | Author
-[Computer Security 3rd Edition](https://www.amazon.co.uk/Computer-Security-Third-Dieter-Gollmann/dp/0470741155)| Dieter Gollman
+| Book                                                                                                            |     Author     |
+| :-------------------------------------------------------------------------------------------------------------- | :------------: |
+| [Computer Security 3rd Edition](https://www.amazon.co.uk/Computer-Security-Third-Dieter-Gollmann/dp/0470741155) | Dieter Gollman |
 
 <!-- End RecommendedBooks -->
 

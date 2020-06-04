@@ -36,9 +36,10 @@ Algorithms are used everywhere in computer science. Being able to construct and 
 
 <!-- Start RecommendedBooks -->
 
-Book | Author
-[The Algorithm Design Manual Hardcover](https://www.amazon.co.uk/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693)| Steven Skiena
-[Introduction to Algorithms](https://www.amazon.co.uk/Introduction-Algorithms-Thomas-H-Cormen/dp/0262033844/ref=pd_lpo_14_t_1/)| Thomas Cormen
+| Book                                                                                                                            |    Author     |
+| :------------------------------------------------------------------------------------------------------------------------------ | :-----------: |
+| [The Algorithm Design Manual Hardcover](https://www.amazon.co.uk/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693)           | Steven Skiena |
+| [Introduction to Algorithms](https://www.amazon.co.uk/Introduction-Algorithms-Thomas-H-Cormen/dp/0262033844/ref=pd_lpo_14_t_1/) | Thomas Cormen |
 
 <!-- End RecommendedBooks -->
 

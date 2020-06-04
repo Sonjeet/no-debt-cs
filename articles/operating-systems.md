@@ -36,9 +36,10 @@ Operating systems introduces concepts related to many different fields such as:
 
 <!-- Start RecommendedBooks -->
 
-Book | Author
-[Modern Operating Systems](https://www.amazon.co.uk/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X)| Andrew Tanenbaum
-[The C Programming Language](https://www.amazon.co.uk/C-Programming-Language-2nd/dp/0131103628)| Brain Kernighan
+| Book                                                                                                         |      Author      |
+| :----------------------------------------------------------------------------------------------------------- | :--------------: |
+| [Modern Operating Systems](https://www.amazon.co.uk/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X) | Andrew Tanenbaum |
+| [The C Programming Language](https://www.amazon.co.uk/C-Programming-Language-2nd/dp/0131103628)              | Brain Kernighan  |
 
 <!-- End RecommendedBooks -->
 

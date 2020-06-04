@@ -35,9 +35,10 @@ A strong knowledge of software engineering practices would be important to land 
 
 <!-- Start RecommendedBooks -->
 
-Book | Author
-[Continuous Delivery](https://www.amazon.co.uk/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)| Jez Humble & David Farley
-[Testing IT](https://www.amazon.com/Testing-Second-Off-Shelf-Software/dp/0521148014)| John Watkins
+| Book                                                                                                                   |          Author           |
+| :--------------------------------------------------------------------------------------------------------------------- | :-----------------------: |
+| [Continuous Delivery](https://www.amazon.co.uk/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) | Jez Humble & David Farley |
+| [Testing IT](https://www.amazon.com/Testing-Second-Off-Shelf-Software/dp/0521148014)                                   |       John Watkins        |
 
 <!-- End RecommendedBooks -->
 

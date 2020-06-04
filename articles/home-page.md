@@ -28,8 +28,6 @@ Theoretical computer science knowledge can only take you so far, popular choices
 
 <!-- Start Credits -->
 
-# Credit where credit's due
-
 Although I have first hand experience in completing a CS degree _(with a 4.0 GPA 😎)_ the inspiration for this site came from some awesome existing resources:
 
 - Forrest Knight's [Open Source CS Repository](https://github.com/ForrestKnight/open-source-cs)

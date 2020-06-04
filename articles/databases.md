@@ -34,9 +34,10 @@ Software development is simply a process of storing and manipulating data, hence
 
 <!-- Start RecommendedBooks -->
 
-Book | Author
-[Database systems](https://www.amazon.co.uk/Database-Systems-Practical-Implementation-Management/dp/0132943263) | Thomas Connolly
-[Designing Data-Intensive Applications](https://www.amazon.co.uk/dp/1449373321) | Martin Kleppmann
+| Book                                                                                                            |      Author      |
+| :-------------------------------------------------------------------------------------------------------------- | :--------------: |
+| [Database systems](https://www.amazon.co.uk/Database-Systems-Practical-Implementation-Management/dp/0132943263) | Thomas Connolly  |
+| [Designing Data-Intensive Applications](https://www.amazon.co.uk/dp/1449373321)                                 | Martin Kleppmann |
 
 <!-- End RecommendedBooks -->
 
