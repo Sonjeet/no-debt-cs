@@ -1,3 +1,5 @@
+const CleanCSS = require("clean-css");
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("excerptHeader", (article) =>
     excerptHeader(article)
@@ -28,6 +30,10 @@ module.exports = function (eleventyConfig) {
   );
 
   eleventyConfig.addPassthroughCopy("icons");
+
+  eleventyConfig.addFilter("cssmin", function (code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
 };
 
 /**

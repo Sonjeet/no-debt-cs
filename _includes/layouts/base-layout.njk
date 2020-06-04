@@ -5,15 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {% set css %}{% include "styles/styles.css" %}{% endset %}
   <style>
-  {# TODO: before deploying, minify the css https://www.11ty.dev/docs/quicktips/inline-css/ #}
-    {{ css | safe }}
+    {{ css | cssmin | safe }}
   </style>
   <script src="https://kit.fontawesome.com/a7ed7ec2ae.js" crossorigin="anonymous"></script>
   <title>No Debt CS</title>
 </head> 
 <body>
   <section class="layout-container">
-    <header class="heading card">
+    <header class="heading card animation-target">
       <nav class="heading__navbar">
         <a href="/">
           {% block logo %}
@@ -36,7 +35,7 @@
     </main>
   </section>
   <footer class="footer">
-    <span>A website by <a href="https://sonjeetpaul.tech/">Sonj</a></span>
+    <span>Made by <a href="https://sonjeetpaul.tech/">Sonj</a></span>
   </footer>
 </body> 
 </html>

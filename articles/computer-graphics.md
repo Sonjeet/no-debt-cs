@@ -1,6 +1,6 @@
 ---
 layout: layouts/module.njk
-title: "Human Computer Interaction (Coming Soon)"
+title: "Computer Graphics (Coming Soon)"
 image: "padlock"
 tags: ["elective"]
 ---

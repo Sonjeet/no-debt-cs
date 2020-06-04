@@ -3,6 +3,7 @@
   --color-primary: rgb(110, 129, 156);
   --color-secondary: rgb(98, 116, 142);
   --color-shadow: rgba(209, 230, 255, 0.57) 0px 2px 24px 1px;
+  --color-shadow-heavy: rgb(198, 223, 253) 0px 2px 24px 1px;
   --color-dark: rgba(0, 0, 0, 0.65);
   --color-darkest: #000000;
   --color-light: #ffffff;
@@ -128,11 +129,17 @@ body::-webkit-scrollbar-thumb {
   font-size: 0.8rem;
   text-decoration: none;
   cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.module:hover {
+  box-shadow: var(--color-shadow-heavy);
 }
 
 .module__anchor {
   height: 100%;
   width: 100%;
+  text-decoration: none;
 }
 
 .module__card {
@@ -185,7 +192,6 @@ body::-webkit-scrollbar-thumb {
   visibility: hidden;
   background-color: var(--color-primary);
   color: var(--color-light);
-  /* text-align: center; */
   padding: 0.5rem;
   border-radius: 6px;
   font-size: 0.8rem;
@@ -205,6 +211,18 @@ body::-webkit-scrollbar-thumb {
 
 .heading {
   border-radius: 0px 0px var(--radius) var(--radius);
+  animation-name: test;
+  animation-duration: 0.3s;
+  animation-timing-function: ease;
+}
+
+@keyframes test {
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .heading__navbar {
@@ -234,11 +252,13 @@ body::-webkit-scrollbar-thumb {
   text-decoration: none;
   font-size: 1.3rem;
   margin-left: 0.5rem;
+  transition: all 0.2s;
 }
 
 .heading__icon:hover {
   text-decoration: none;
   border-color: var(--color-secondary);
+  box-shadow: var(--color-shadow);
 }
 
 .heading__icon:visited {
@@ -289,7 +309,6 @@ body::-webkit-scrollbar-thumb {
 
 a {
   color: inherit;
-  text-decoration: none;
 }
 a:visited {
   color: inherit;
