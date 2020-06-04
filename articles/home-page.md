@@ -13,7 +13,7 @@ A CS degree from university has its benefits. But for those that want to learn a
 
 <!-- Start Rationale -->
 
-With respectable institutes like MIT, Harvard & co open sourcing their computer science material it's easier than ever to learn CS for free at your own pace. I've documented some of these resources in a structured fashion below but this is by no means a quick guide to become a computer scientist. These are demanding courses so put in the work pal.
+With respectable institutes like MIT, Harvard & others open sourcing their computer science material it's easier than ever to learn CS for free at your own pace. I've documented some of these resources in a structured fashion below but this is by no means a quick guide to become a computer scientist. These are demanding courses so put in the work pal.
 
 <!-- End Rationale -->
 
