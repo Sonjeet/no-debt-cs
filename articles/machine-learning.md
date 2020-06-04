@@ -3,6 +3,7 @@ layout: layouts/module.njk
 title: "Machine Learning"
 image: "ai-ml"
 tags: ["elective"]
+order: 2
 ---
 
 <!-- Start Heading -->

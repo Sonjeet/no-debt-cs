@@ -3,6 +3,7 @@ layout: layouts/module.njk
 title: "Operating Systems"
 image: "operating-system"
 tags: ["core"]
+order: 5
 ---
 
 <!-- Start Heading -->

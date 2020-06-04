@@ -3,6 +3,7 @@ layout: layouts/module.njk
 title: "Databases"
 image: "db"
 tags: ["core"]
+order: 8
 ---
 
 <!-- Start Heading -->

@@ -1,8 +1,8 @@
 {% extends 'layouts/home.njk' %}
 {% from "partials/module-card.njk" import moduleCard %}
 {% set homeContent = collections.main[0] %}
-{% set coreModulesData = collections.core %}
-{% set electiveModulesData = collections.elective %}
+{% set coreModulesData = collections.sortedCoreModules %}
+{% set electiveModulesData = collections.sortedElectiveModules %}
 
 {% block rationale %}
   {% excerptRationale homeContent %}

@@ -34,6 +34,24 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
   });
+
+  eleventyConfig.addCollection("sortedCoreModules", function (collectionApi) {
+    const coreModules = collectionApi.getFilteredByTag("core");
+    const sortedCoreModules = coreModules.sort(
+      (a, b) => a.data.order - b.data.order
+    );
+    return sortedCoreModules;
+  });
+
+  eleventyConfig.addCollection("sortedElectiveModules", function (
+    collectionApi
+  ) {
+    const coreModules = collectionApi.getFilteredByTag("elective");
+    const sortedElectiveModules = coreModules.sort(
+      (a, b) => a.data.order - b.data.order
+    );
+    return sortedElectiveModules;
+  });
 };
 
 /**

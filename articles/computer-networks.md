@@ -3,6 +3,7 @@ layout: layouts/module.njk
 title: "Computer Networks"
 image: "networks"
 tags: ["core"]
+order: 7
 ---
 
 <!-- Start Heading -->

@@ -3,6 +3,7 @@ layout: layouts/module.njk
 title: "Web Development"
 image: "webdev"
 tags: ["elective"]
+order: 1
 ---
 
 <!-- Start Heading -->

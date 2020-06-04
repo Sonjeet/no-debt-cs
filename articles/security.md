@@ -3,6 +3,7 @@ layout: layouts/module.njk
 title: "Systems Security"
 image: "security"
 tags: ["core"]
+order: 9
 ---
 
 <!-- Start Heading -->

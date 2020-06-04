@@ -3,6 +3,7 @@ layout: layouts/module.njk
 title: Maths for Computer Science
 image: "sigma"
 tags: ["core"]
+order: 2
 ---
 
 <!-- Start Heading -->

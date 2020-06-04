@@ -3,6 +3,7 @@ layout: layouts/module.njk
 title: Software Engineering
 image: "flowchart"
 tags: ["core"]
+order: 6
 ---
 
 <!-- Start Heading -->

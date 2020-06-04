@@ -3,6 +3,7 @@ layout: layouts/module.njk
 title: "Algorithms and Data Structures"
 image: "algorithm"
 tags: ["core"]
+order: 3
 ---
 
 <!-- Start Heading -->

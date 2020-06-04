@@ -3,6 +3,7 @@ layout: layouts/module.njk
 title: "Computer Architecture"
 image: "architecture"
 tags: ["core"]
+order: 4
 ---
 
 <!-- Start Heading -->

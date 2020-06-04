@@ -3,6 +3,7 @@ layout: layouts/module.njk
 title: Intro to Programming
 image: "programming"
 tags: ["core"]
+order: 1
 ---
 
 <!-- Start Heading -->
