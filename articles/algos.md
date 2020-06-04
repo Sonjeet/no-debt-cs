@@ -46,14 +46,14 @@ Algorithms are used everywhere in computer science. Being able to construct and 
 
 <!-- Start Checklist -->
 
-- complexity analysis
-- recursion
-- sorting
-- searching
-- stacks
-- queues
-- linked lists
-- trees
-- graphs
-- dynamic programming
+- Complexity analysis
+- Recursion
+- Sorting
+- Searching
+- Stacks
+- Queues
+- Linked lists
+- Trees
+- Graphs
+- Dynamic programming
 <!-- End Checklist -->

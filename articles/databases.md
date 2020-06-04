@@ -47,5 +47,5 @@ Software development is simply a process of storing and manipulating data, hence
 - Relational databases
 - SQL
 - Normalising data with normal forms
-- noSQL
+- NoSQL
 <!-- End Checklist -->

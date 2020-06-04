@@ -49,14 +49,14 @@ CS theory is powered by a **lot** of math. Every core module listed in this webs
 
 <!-- Start Checklist -->
 
-- linear algebra
-- set theory
-- differential equations
-- matrices
-- combinatronics
-- probability
-- statistics
-- recursion
+- Linear algebra
+- Set theory
+- Differential equations
+- Matrices
+- Combinatronics
+- Probability
+- Statistics
+- Recursion
 - Relations and Functions
 - Proof techniques
 - Propositional logic
