@@ -238,7 +238,7 @@ body::-webkit-scrollbar-thumb {
   transition: transform 0.2s;
 }
 
-.heading__navbar:hover .logo {
+.logo:hover {
   transform: rotate(-2deg);
 }
 
