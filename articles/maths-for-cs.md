@@ -40,10 +40,11 @@ CS theory is powered by a **lot** of math. Every core module listed in this webs
 
 <!-- Start RecommendedBooks -->
 
-| Book                                                                                                                              |    Author     |
-| :-------------------------------------------------------------------------------------------------------------------------------- | :-----------: |
-| [Discrete Mathematics and its Applications](https://www.amazon.com/Discrete-Mathematics-Applications-Kenneth-Rosen/dp/0073383090) | Kenneth Rosen |
-| [Mathematics for Computer Science](https://www.amazon.co.uk/Mathematics-Computer-Science-Eric-Lehman/dp/9888407066)               |  Eric Lehman  |
+| Book                                                                                                                              |               Author               |
+| :-------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------: |
+| [Discrete Mathematics and its Applications](https://www.amazon.com/Discrete-Mathematics-Applications-Kenneth-Rosen/dp/0073383090) |           Kenneth Rosen            |
+| [Mathematics for Computer Science](https://www.amazon.co.uk/Mathematics-Computer-Science-Eric-Lehman/dp/9888407066)               |            Eric Lehman             |
+| [From Mathematics to Generic Programming](https://www.fm2gp.com/)                                                                 | Alexandra Stepanov and Daniel Rose |
 
 <!-- End RecommendedBooks -->
 
