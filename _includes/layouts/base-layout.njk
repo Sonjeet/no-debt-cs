@@ -1,3 +1,5 @@
+{% from "partials/nav-icon.njk" import navIcon %}
+
 <!DOCTYPE html> 
 <html lang="en"> 
 <head> 
@@ -23,8 +25,10 @@
           {% endblock %}
         </a>
         <div class="heading__icons">
-          <a href="https://www.linkedin.com/in/sonjeet/" target="_blank" class="heading__icon"><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://github.com//sonjeet/no-debt-cs" target="_blank" class="heading__icon"><i class="fab fa-github"></i></a>
+          {{navIcon({ url: "https://www.linkedin.com/in/sonjeet/", iconClass: "fab fa-linkedin-in" })}}
+          {{navIcon({ url: "https://www.youtube.com/channel/UCMFpLCg1s1GtdBLGri_XgNQ", iconClass: "fab fa-youtube" })}}
+          {{navIcon({ url: "https://github.com//sonjeet/no-debt-cs", iconClass: "fab fa-github" })}}
+          
         </div>
       </nav>
       <div class="heading__text">
@@ -38,7 +42,7 @@
     </main>
   </section>
   <footer class="footer">
-    <span>Made by <a href="https://sonjeetpaul.tech/">Sonj</a></span>
+    <span>Made with some 💚 and a bit of <a href="https://www.11ty.dev/" target="_blank">magic</a> by <a href="https://sonjeetpaul.tech/">Sonj</a></span>
   </footer>
 </body> 
 </html>

@@ -129,10 +129,11 @@ body::-webkit-scrollbar-thumb {
   font-size: 0.8rem;
   text-decoration: none;
   cursor: pointer;
-  transition: box-shadow 0.2s;
+  transition: all 0.2s;
 }
 
 .module:hover {
+  transform: scale(1.1);
   box-shadow: var(--color-shadow-heavy);
 }
 
@@ -211,12 +212,12 @@ body::-webkit-scrollbar-thumb {
 
 .heading {
   border-radius: 0px 0px var(--radius) var(--radius);
-  animation-name: test;
+  animation-name: pop;
   animation-duration: 0.3s;
   animation-timing-function: ease;
 }
 
-@keyframes test {
+@keyframes pop {
   50% {
     transform: scale(1.05);
   }
@@ -234,6 +235,11 @@ body::-webkit-scrollbar-thumb {
 .heading__navbar .logo {
   height: 4rem;
   width: 4rem;
+  transition: transform 0.2s;
+}
+
+.heading__navbar:hover .logo {
+  transform: rotate(-2deg);
 }
 
 .heading__icons {

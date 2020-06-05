@@ -18,11 +18,11 @@ Understand how to construct efficient solutions for different problems in CS
 
 Algorithms are used everywhere in computer science. Being able to construct and optimise your own algorithms are crucial, especially if you're attempting to land a software engineering role at a large tech company. Having strong algorithmic knowledge opens doors in:
 
-- software engineering
-- algorithmic trading
-- machine learning
-- data science
-- formal verification for software
+- Software engineering
+- Algorithmic trading
+- Machine learning
+- Data science
+- Formal verification for software
 <!-- End Rationale -->
 
 <!-- Start Resources -->

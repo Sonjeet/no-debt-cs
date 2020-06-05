@@ -28,9 +28,9 @@ Machine learning and artificial intelligence is currently being pushed into so m
 
 <!-- Start Resources -->
 
-| Courses                                                                                                                        |  School   |                Prerequisites                 |
-| :----------------------------------------------------------------------------------------------------------------------------- | :-------: | :------------------------------------------: |
-| [Artificial intelligence: principles and techniques](https://www.youtube.com/playlist?list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX) | Standford | Maths for CS, Algorithms and Data Structures |
+| Courses                                                                                                                        |  School  |                Prerequisites                 |
+| :----------------------------------------------------------------------------------------------------------------------------- | :------: | :------------------------------------------: |
+| [Artificial intelligence: principles and techniques](https://www.youtube.com/playlist?list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX) | Stanford | Maths for CS, Algorithms and Data Structures |
 
 <!-- End Resources -->
 
