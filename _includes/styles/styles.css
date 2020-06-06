@@ -47,7 +47,7 @@ body::-webkit-scrollbar-thumb {
 
 .layout-container {
   padding: 0 1em;
-  width: 100%; /* TODO: at some point we'll require a max-wdith for big screens*/
+  width: 100%;
   max-width: 980px;
   margin: 0 auto;
 }
@@ -75,7 +75,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .card table thead th {
-  /* background-color: green; */
   border-bottom: 0.2rem solid var(--color-dark);
 }
 
@@ -102,7 +101,6 @@ body::-webkit-scrollbar-thumb {
   height: 1em;
   width: 1em;
   background-image: url("../../icons/check-mark.svg");
-  /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/93/Tango-bullet.svg); */
   background-size: contain;
   background-repeat: no-repeat;
 }
