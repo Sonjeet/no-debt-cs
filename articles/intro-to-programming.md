@@ -46,7 +46,7 @@ Schools tend to introduce programming through either Python, Java or C++. Either
 
 | Book                                                                                     |          Author           |
 | :--------------------------------------------------------------------------------------- | :-----------------------: |
-| [Effective Java](https://www.oreilly.com/library/view/effective-java-3rd/9780134686097/) |       Joshua Black        |
+| [Effective Java](https://www.oreilly.com/library/view/effective-java-3rd/9780134686097/) |       Joshua Bloch        |
 | [C++ Primer](https://www.amazon.co.uk/dp/0321714113)                                     | Stanley B. Lippman et al. |
 | [Python Crash Course](https://www.amazon.co.uk/dp/1593276036/)                           |       Eric Matthes        |
 
